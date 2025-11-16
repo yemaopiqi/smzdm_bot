@@ -17,7 +17,7 @@ jobs:
     container:
       image: enwaiax/smzdm_bot
       env:
-        ANDROID_COOKIE: "__ckguid=PJ93jO648lwRuAgQJXhFfs2; device_id=213070643317572062312335243424357c3aeb6ad38eb2c103de1bac48; homepage_sug=f; r_sort_type=score; smzdm_user_source=1791EFA7BA4069928B2FC09C85841F52; _zdmA.vid=*; footer_floating_layer=0; ad_date=16; ad_json_feed=%7B%7D; sess=BA-1y5lepkvkl8cWiMAjVZRSU%2FubM0i9NKIX%2BGGNfBqdDElZxDB5LZYurY7CTBnwy8Iiju2XN%2F2Iti2UPlJpmFqBxQPM%2Ffk4VRohNRSVpRUUX7kNsll9pqY0wbX; user=user%3A6246863294%7C6246863294; smzdm_id=6246863294; _zdmA.uid=ZDMA.2GQVABhwBL.1763262508.2419200; bannerCounter=%5B%7B%22number%22%3A0%2C%22surplus%22%3A1%7D%2C%7B%22number%22%3A0%2C%22surplus%22%3A1%7D%2C%7B%22number%22%3A0%2C%22surplus%22%3A1%7D%2C%7B%22number%22%3A0%2C%22surplus%22%3A1%7D%2C%7B%22number%22%3A0%2C%22surplus%22%3A1%7D%5D; _zdmA.time=1763262509916.0.https%3A%2F%2Fwww.smzdm.com%2F; w_tsfp=ltvuV0MF2utBvS0Q76nrkkmrFzgvcjk4h0wpEaR0f5thQLErU5mD0oR8vM70OXLY6sxnvd7DsZoyJTLYCJI3dwMSFp6YIdxA2FjGlNQiio0SBxU1RJrYWVUbJ7MhuDVBfHhCNxS00jA8eIUd379yilkMsyN1zap3TO14fstJ019E6KDQmI5uDW3HlFWQRzaLbjcMcuqPr6g18L5a5WnZ7Q36fg1xV+hA1UHBhHwbCC1x4EDudbxaMR//JZirSqA="
+        ANDROID_COOKIE: ""
         SK: ${{ secrets.SK }}
         PUSH_PLUS_TOKEN: ${{ secrets.PUSH_PLUS_TOKEN }}
         SC_KEY: ${{ secrets.SC_KEY }}
